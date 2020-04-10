@@ -3,12 +3,13 @@ import shutil
 import csv
 from FileChanger.functions import *
 
-path = "C:\\Users\\Samuel Bancroft\\PycharmProjects\\AnAIApproachToVariedDataSets\\FileChanger\\DataSet_Test_Folde\\"
-newpath = "C:\\Users\\Samuel Bancroft\\PycharmProjects\\AnAIApproachToVariedDataSets\\FileChanger\\DataSet_NewTest_Folder\\"
+path = "C:\\Users\\...Path to folder...\\"
+newpath = "C:\\Users\\...Path to folder...\\"
 
 csv_file = []
 files = []
 imagefiles = []
+
 try:
     for r, d, f in os.walk(path):
         for file in f:
